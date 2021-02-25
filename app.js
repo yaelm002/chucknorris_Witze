@@ -15,7 +15,7 @@ function getJokes(e){
     let i = 0;
     if(erg.type=== "success"){
     erg.value.forEach(function(joke){
-        output += `<img src ="${++i}.jpeg" alt ="no bild" width ="40" height ="40"> `;
+        output += `<img src ="${++i}.jpeg" alt ="kein_bild" width ="40" height ="40"> `;
         output += `<li>${joke.id}</li>`;
         output += `<li>${joke.joke}</li>`;
     });
